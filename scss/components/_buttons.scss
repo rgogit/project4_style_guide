@@ -13,22 +13,37 @@
   
   .default {
     background-color: $color-link;
-  }
+    &:hover {
+    background-color: lighten($color-link, 15%);
+    }
+    }
   
   .error {
     background-color: $pink;
+    &:hover {
+    background-color: lighten($pink, 15%);
+    }
   }
   
   .info {
     background-color: $purple;
+    &:hover {
+    background-color: lighten($purple, 15%);
+    }
   }
   
   .success {
     background-color: $lime-green;
+    &:hover {
+    background-color: lighten($lime-green, 15%);
+    }
   }
   
   .warning {
     background-color: $orange;
+    &:hover {
+    background-color: lighten($orange, 15%);
+    }
   }
   
   /* ============================================= */
